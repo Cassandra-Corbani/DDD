@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta de DDD</title>
+  <link rel="stylesheet" href="ddd.css" />
+  <script src="ddd.js" defer></script>
+</head>
+<body>
+  <h1>Consulta de DDD</h1>
+
+  <label for="input_ddd">Digite o DDD:</label>
+  <input type="text" id="input_ddd" placeholder="Digite aqui o DDD desejado" />
+  <button id="botao_buscar">Buscar</button>
+
+  <div id="ddd">
+    <p id="Estado"></p>
+    <p id="Cidades"></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>DDD</th>
+      <th>Estado</th>
+    </tr>
+    <tbody id="tabela_ddds">
+    </tbody>
+  </table>
+</body>
+</html>
